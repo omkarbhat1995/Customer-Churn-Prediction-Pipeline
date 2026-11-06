@@ -1,0 +1,25 @@
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[cod]
+*$py.class
+
+Virtual Environments
+
+venv/
+env/
+.venv/
+
+Data sets - Ignore all raw, cleaned, and transformed data
+
+data/
+
+Machine Learning Models and Artifacts
+
+models/
+
+IDE and OS specific files
+
+.vscode/
+.idea/
+.DS_Store
