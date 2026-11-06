@@ -10,13 +10,6 @@ venv/
 env/
 .venv/
 
-Data sets - Ignore all raw, cleaned, and transformed data
-
-data/
-
-Machine Learning Models and Artifacts
-
-models/
 
 IDE and OS specific files
 
