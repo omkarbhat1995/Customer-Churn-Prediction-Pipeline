@@ -1,5 +1,7 @@
 # Customer Churn Prediction Pipeline
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+
 This repository contains an end-to-end Machine Learning pipeline designed to predict customer churn. It takes raw customer data, cleans it, balances the target classes using SMOTE, tunes multiple machine learning models (Logistic Regression and Decision Tree) using `GridSearchCV`, and generates a comprehensive evaluation report with visualizations.
 
 ## 📊 Data Source
