@@ -95,11 +95,13 @@ To run this pipeline locally, you must download the dataset from Kaggle and plac
    For a proactive churn prevention campaign, we recommend deploying the **Logistic Regression** model. In churn prediction, a False Negative (failing to identify a churning customer) is significantly more costly than a False Positive (offering a retention discount to a happy customer). The Logistic Regression model's superior recall ensures we capture and intervene with the maximum number of at-risk customers. Retention strategies should heavily target customers experiencing high volumes of service calls and complaints.
   
   * **Churn Distribution:**
-      This plot highlights a severe class imbalance in the original dataset, with 80% of customers remaining and only 20% churning, necessitating the use of SMOTE during our transformation phase to prevent the models from becoming biased toward the majority class.
+      This plot highlights a severe class imbalance in the original dataset, with 90% of customers remaining and only 10% churning, necessitating the use of SMOTE during our transformation phase to prevent the models from becoming biased toward the majority class.
+    
     <img width="567" height="397" alt="plot_churn_distribution" src="https://github.com/user-attachments/assets/9bcd6e81-99b6-41b9-a413-07e4bcc7d501" />
 
   * **Confusion Matrices:**
     This comparison of predicted versus actual classifications highlights that Logistic Regression correctly identifies far more actual churners (higher recall) than the Decision Tree, which heavily over-predicts the "No Churn" majority class.
+    
     <img width="1184" height="484" alt="plot_confusion_matrices" src="https://github.com/user-attachments/assets/b4fc7a0f-559f-49bd-80d2-d042c0ac815f" />
 
   * **Feature Importance:**
@@ -109,6 +111,7 @@ To run this pipeline locally, you must download the dataset from Kaggle and plac
 
   * **ROC Curve:**
       This plot illustrates the trade-off between true positive and false positive rates, demonstrating that Logistic Regression (AUC = 0.667) has a better overall ability to distinguish between churn and non-churn customers compared to the Decision Tree (AUC = 0.519).
+    
     <img width="694" height="551" alt="plot_roc_curve" src="https://github.com/user-attachments/assets/ea0c5f41-0a9f-4c6a-ab3f-4151b456dd1c" />
 
 
