@@ -1,6 +1,11 @@
 # Customer Churn Prediction Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
 This repository contains an end-to-end Machine Learning pipeline designed to predict customer churn. It takes raw customer data, cleans it, balances the target classes using SMOTE, tunes multiple machine learning models (Logistic Regression and Decision Tree) using `GridSearchCV`, and generates a comprehensive evaluation report with visualizations.
 
