@@ -93,7 +93,8 @@ To run this pipeline locally, you must download the dataset from Kaggle and plac
 
    ### Business Recommendations
    For a proactive churn prevention campaign, we recommend deploying the **Logistic Regression** model. In churn prediction, a False Negative (failing to identify a churning customer) is significantly more costly than a False Positive (offering a retention discount to a happy customer). The Logistic Regression model's superior recall ensures we capture and intervene with the maximum number of at-risk customers. Retention strategies should heavily target customers experiencing high volumes of service calls and complaints.
-  
+
+  ### Insights from Plots:
   * **Churn Distribution:**
       This plot highlights a severe class imbalance in the original dataset, with 90% of customers remaining and only 10% churning, necessitating the use of SMOTE during our transformation phase to prevent the models from becoming biased toward the majority class.
     
