@@ -80,15 +80,19 @@ To run this pipeline locally, you must download the dataset from Kaggle and plac
   
 4. **Results:**
   * **Churn Distribution:**
+    
     <img width="567" height="397" alt="plot_churn_distribution" src="https://github.com/user-attachments/assets/9bcd6e81-99b6-41b9-a413-07e4bcc7d501" />
 
   * **Confusion Matrices:**
-   <img width="1184" height="484" alt="plot_confusion_matrices" src="https://github.com/user-attachments/assets/b4fc7a0f-559f-49bd-80d2-d042c0ac815f" />
+  
+    <img width="1184" height="484" alt="plot_confusion_matrices" src="https://github.com/user-attachments/assets/b4fc7a0f-559f-49bd-80d2-d042c0ac815f" />
 
   * **Feature Importance:**
+    
    <img width="1010" height="551" alt="plot_feature_importance" src="https://github.com/user-attachments/assets/3f7a463d-dda0-4fe2-874d-2e8b384803fa" />
 
   * **ROC Curve:**
+    
     <img width="694" height="551" alt="plot_roc_curve" src="https://github.com/user-attachments/assets/ea0c5f41-0a9f-4c6a-ab3f-4151b456dd1c" />
 
 
