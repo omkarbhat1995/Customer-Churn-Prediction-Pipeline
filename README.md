@@ -78,21 +78,21 @@ To run this pipeline locally, you must download the dataset from Kaggle and plac
    * **Visualizations:** Check the `visualizations/` folder for the generated `.png` graphs (ROC Curve, Confusion Matrices, Feature Importances, etc.).
    * **Models:** The best performing models and the `preprocessor.pkl` (containing your fitted scalers and encoders) will be saved in the `models/` folder, ready for deployment or inference on new data.
   
-4. **Results and Insights:**
+## **Results and Insights:**
    Based on our model evaluation, we discovered key insights regarding model selection and customer behavior:
 
    ### Model Performance Comparison
-*   **Logistic Regression:** Achieved an overall accuracy of 59.73% and an AUC of 0.667[cite: 26, 28]. While its accuracy is lower, it successfully identified 64.60% of all churning customers (Recall)[cite: 26]. 
-*   **Decision Tree:** Achieved a higher overall accuracy of 80.77%, but a much lower AUC of 0.519[cite: 26, 28]. It heavily favored the majority class and only identified 15.95% of churning customers[cite: 26].
+   *   **Logistic Regression:** Achieved an overall accuracy of 59.73% and an AUC of 0.667[cite: 26, 28]. While its accuracy is lower, it successfully identified 64.60% of all churning customers (Recall)[cite: 26]. 
+   *   **Decision Tree:** Achieved a higher overall accuracy of 80.77%, but a much lower AUC of 0.519[cite: 26, 28]. It heavily favored the majority class and only identified 15.95% of churning customers[cite: 26].
 
-### Key Drivers of Churn
-Our feature importance analysis revealed that customer service interactions are the strongest predictors of churn. The top three contributing factors are[cite: 27]:
-1.  **Number of Service Calls:** The leading indicator of customer attrition.
-2.  **Number of Complaints:** The second highest contributing feature.
-3.  **Contract Type:** The third most critical factor influencing retention.
+   ### Key Drivers of Churn
+   Our feature importance analysis revealed that customer service interactions are the strongest predictors of churn. The top three contributing factors are[cite: 27]:
+   1.  **Number of Service Calls:** The leading indicator of customer attrition.
+   2.  **Number of Complaints:** The second highest contributing feature.
+   3.  **Contract Type:** The third most critical factor influencing retention.
 
-### Business Recommendations
-For a proactive churn prevention campaign, we recommend deploying the **Logistic Regression** model. In churn prediction, a False Negative (failing to identify a churning customer) is significantly more costly than a False Positive (offering a retention discount to a happy customer)[cite: 26]. The Logistic Regression model's superior recall ensures we capture and intervene with the maximum number of at-risk customers[cite: 26]. Retention strategies should heavily target customers experiencing high volumes of service calls and complaints[cite: 27].
+   ### Business Recommendations
+   For a proactive churn prevention campaign, we recommend deploying the **Logistic Regression** model. In churn prediction, a False Negative (failing to identify a churning customer) is significantly more costly than a False Positive (offering a retention discount to a happy customer). The Logistic Regression model's superior recall ensures we capture and intervene with the maximum number of at-risk customers. Retention strategies should heavily target customers experiencing high volumes of service calls and complaints.
   
   * **Churn Distribution:**
     
